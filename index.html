@@ -20,73 +20,78 @@
   <body>
     <header>
       <div class="container">
-        <nav class="main-nav">
-          <a href="index.html" class="logo">
-            <span class="part-web">Web</span
-            ><span class="part-studio">Studio</span></a
-          >
-          <ul class="main-link">
-            <li><a href="./index.html" class="link current">Студія</a></li>
-            <li>
-              <a href="./portfolio.html" class="link">Портфоліо</a>
-            </li>
-            <li><a href="#" class="link">Контакти</a></li>
-          </ul>
-          <ul>
-            <li><a href="#" class="communication">info@devstudio.com</a></li>
-            <li><a href="#" class="communication">+38 096 111 11 11</a></li>
-          </ul>
-        </nav>
+        <div class="header-container">
+          <nav class="main-nav">
+            <a href="index.html" class="logo">
+              <span class="part-web">Web</span
+              ><span class="part-studio">Studio</span></a
+            >
+            <ul class="main-link">
+              <li><a href="./index.html" class="link current">Студія</a></li>
+              <li>
+                <a href="./portfolio.html" class="link">Портфоліо</a>
+              </li>
+              <li><a href="#" class="link">Контакти</a></li>
+            </ul>
+            <ul class="communication-menu">
+              <li><a href="#" class="communication">info@devstudio.com</a></li>
+              <li><a href="#" class="communication">+38 096 111 11 11</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <main>
       <!--Hero-->
-      <div class="container">
-        <section class="hero">
+      <section class="hero">
+        <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero-button">Замовити послугу</button>
-        </section>
-      </div>
-      <div class="container">
-        <!--section Особливості-->
-        <section class="benefits">
-          <h2>Наші переваги</h2>
-          <ul>
-            <li>
-              <h3>Увага до деталей</h3>
-              <p>
-                Ідейні міркування, і навіть початок повсякденної роботи з
-                формування позиції.
-              </p>
-            </li>
-            <li>
-              <h3>Пунктуальність</h3>
-              <p>
-                Завдання організації, особливо рамки і місце навчання кадрів
-                тягне у себе.
-              </p>
-            </li>
-            <li>
-              <h3>Планування</h3>
-              <p>
-                Так само консультація з широким активом значною мірою зумовлює.
-              </p>
-            </li>
-            <li>
-              <h3>Сучасні технології</h3>
-              <p>
-                Значимість цих проблем настільки очевидна, що реалізація
-                планових завдань.
-              </p>
-            </li>
-          </ul>
-        </section>
-      </div>
-      <div class="container">
-        <!--Чим ми займаємося-->
-        <section class="examples-work">
+        </div>
+      </section>
+      <!--section Особливості-->
+      <section class="benefits">
+        <div class="container">
+          <div>
+            <h2>Наші переваги</h2>
+            <ul class="benefits-list">
+              <li class="benefits-list-item">
+                <h3>Увага до деталей</h3>
+                <p>
+                  Ідейні міркування, і навіть початок повсякденної роботи з
+                  формування позиції.
+                </p>
+              </li>
+              <li class="benefits-list-item">
+                <h3>Пунктуальність</h3>
+                <p>
+                  Завдання організації, особливо рамки і місце навчання кадрів
+                  тягне у себе.
+                </p>
+              </li>
+              <li class="benefits-list-item">
+                <h3>Планування</h3>
+                <p>
+                  Так само консультація з широким активом значною мірою
+                  зумовлює.
+                </p>
+              </li>
+              <li class="benefits-list-item">
+                <h3>Сучасні технології</h3>
+                <p>
+                  Значимість цих проблем настільки очевидна, що реалізація
+                  планових завдань.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!--Чим ми займаємося-->
+      <section class="examples-work">
+        <div class="container">
           <h2 class="examples-work-title">Чим ми займаємося</h2>
-          <ul>
+          <ul class="examples-work-container">
             <li>
               <img
                 src="./images/img1.jpg"
@@ -109,14 +114,14 @@
               />
             </li>
           </ul>
-        </section>
-      </div>
-      <div class="container">
-        <!--наша команда-->
-        <section class="our-team">
+        </div>
+      </section>
+      <!--наша команда-->
+      <section class="our-team">
+        <div class="container">
           <h2 class="our-team-title">Наша команда</h2>
-          <ul>
-            <li>
+          <ul class="our-team-container">
+            <li class="team-card">
               <img
                 src="./images/igordemchnko.jpg"
                 alt="чоловік в окулярах посміхається"
@@ -125,7 +130,7 @@
               <h3>Ігор Дем'яненко</h3>
               <p>Product Designer</p>
             </li>
-            <li>
+            <li class="team-card">
               <img
                 src="./images/olgarepina.jpg"
                 alt="жінка в окулярах посміхається"
@@ -134,7 +139,7 @@
               <h3>Ольга Рєпіна</h3>
               <p>Frontend Developer</p>
             </li>
-            <li>
+            <li class="team-card">
               <img
                 src="./images/mukolatarasov.jpg"
                 alt="Молодий усміхнений хлопець"
@@ -143,7 +148,7 @@
               <h3>Микола Тарасов</h3>
               <p>Marketing</p>
             </li>
-            <li>
+            <li class="team-card">
               <img
                 src="./images/mihayloermakov.jpg"
                 alt="млодий усміхнений хлопець в окулярах"
@@ -153,28 +158,30 @@
               <p>UI Designer</p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="container">
-        <a href="index.html" class="logo">
-          <span class="part-web">Web</span
-          ><span class="part-studio-footer">Studio</span></a
-        >
-        <address>
-          <ul>
-            <li>
-              <a
-                class="footer-adress"
-                href="https://goo.gl/maps/vEa3t6t454SskipW9"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
-            </li>
-            <li><a href="#" class="link-footer">info@devstudio.com</a></li>
-            <li><a href="#" class="link-footer">+38 096 111 11 11</a></li>
-          </ul>
-        </address>
+        <div>
+          <a href="index.html" class="logo">
+            <span class="part-web">Web</span
+            ><span class="part-studio-footer">Studio</span></a
+          >
+          <address>
+            <ul class="footer-list">
+              <li class="footer-elements">
+                <a
+                  class="footer-adress"
+                  href="https://goo.gl/maps/vEa3t6t454SskipW9"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li class="footer-elements">
+              <li class="footer-elements"><a href="#" class="link-footer">info@devstudio.com</a></li>
+              <li class="footer-elements"><a href="#" class="link-footer">+38 096 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
       </div>
     </footer>
   </body>
