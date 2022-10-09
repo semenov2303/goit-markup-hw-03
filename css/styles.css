@@ -271,11 +271,13 @@ font-weight: 500;
     font-family: 'Roboto', sans-serif;
     font-weight:  700;
     font-size: 18px;
+    padding-left: 24px;
 }
 .models p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    padding-left: 24px;
 }
 .models {
     display: flex;
@@ -287,5 +289,5 @@ font-weight: 500;
 }
 .models-text {
     margin-top: 20px;
-    margin-bottom: 4px;
+    margin-bottom: 14px;
 }
