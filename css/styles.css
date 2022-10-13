@@ -103,7 +103,7 @@ header {
 }
 .hero{
     background-color: #2F303A;
-    width: auto;
+    max-width: 1600px;
     margin: auto auto;
     padding: 200px 0;
 }
